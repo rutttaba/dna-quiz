@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DNA Quiz">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DNA Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel=“stylesheet”>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main role="main">
+        <header role="banner" class="header">
+            <section>
+                <ul>
+                    <li class="scoreKeeper">Question number:
+                        <span class="js-question-no">0</span> out of 11</li>
+                    <li class="scoreKeeper">Score:
+                        <span class="js-score">0</span>
+                    </li>
+                </ul>
+            </section>
+        </header>
+        <section class="container">
+                <form>
+                    
+                        <legend class="questionText">What is the function of DNA?</legend>
+                        <div class="qLocation">
+                            <input type="radio" name="dnaOptions" id="q1"
+                                value="DNA passes along information from parents to offspring and tells our cells what proteins to make" required>
+                            <label for="q1">DNA passes along information from parents to offspring and tells our cells what proteins to make</label>
+                        </div>
+                        <div class="qLocation">
+                            <input type="radio" name="dnaOptions" id="q2" value="DNA fills the cells so the wouldn’t be empty" required>
+                            <label for="q2">DNA fills the cells so the wouldn’t be empty</label>
+                        </div>
+                        <div class="qLocation">
+                            <input type="radio" name="dnaOptions" id="q3" value="DNA is the building block of our bodies" required>
+                            <label for="q3">DNA is the building block of our bodies</label>
+                        </div>
+                        <div class="qLocation">
+                            <input type="radio" name="dnaOptions" id="q4" value="DNA is found only in GMOs and therefore something to be afraid of"
+                                required>
+                            <label for="q4">DNA is found only in GMOs and therefore something to be afraid of</label>
+                        </div>
+                         <button type="button" class="submit button">Submit</button>
+                   
+ 
+                 </form>
+        </section>
+    </main>
+  
+</body>
+
+</html>
