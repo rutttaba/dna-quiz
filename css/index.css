@@ -59,6 +59,7 @@ h1 {
 .button:hover {
   background: #422d8f;
   color: #c5e014;
+  cursor: pointer;
 }
 
 .questionText {
@@ -74,8 +75,9 @@ fieldset div {
 
 fieldset div:hover {
   font-size: 20px;
-
+  cursor: pointer;
 }
+
 .images {
   margin: 1em auto;
   width: 40%;
